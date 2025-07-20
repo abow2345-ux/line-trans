@@ -61,15 +61,4 @@ async function translateWithGPT(prompt) {
 
 app.get('/', (req, res) => res.send('Line GPT Bot 正常運行'));
 app.listen(3000, () => console.log('Server running on port 3000'));
-{
-  "name": "line-gpt-translate",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "axios": "^1.6.0",
-    "express": "^4.18.2"
-  },
-  "scripts": {
-    "start": "node index.js"
-  }
-}
+
